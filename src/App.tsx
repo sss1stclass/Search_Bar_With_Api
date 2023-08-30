@@ -1,6 +1,14 @@
+import './App.css'
+import SearchBar from './components/SearchBar'
+
 const App = () => {
   return (
-    <div>this is app component</div>
+    <div className="App">
+      <div className="search-bar-container">
+           <SearchBar/>
+        <div>Search Result</div>
+      </div>
+    </div>
   )
 }
 
